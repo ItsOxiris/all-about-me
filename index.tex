@@ -1,0 +1,580 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+  letterpaper,
+  DIV=11,
+  numbers=noendperiod]{scrreprt}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{5}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+\KOMAoption{captions}{tableheading}
+\makeatletter
+\@ifpackageloaded{bookmark}{}{\usepackage{bookmark}}
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Armein Z. R. Langi},
+  pdfauthor={131902360 Armein Z R Langi},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\title{Armein Z. R. Langi}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Portfolio Asesmen II-2100 KIPP}
+\author{131902360 Armein Z R Langi}
+\date{2025-09-15}
+\begin{document}
+\maketitle
+
+\renewcommand*\contentsname{Table of contents}
+{
+\hypersetup{linkcolor=}
+\setcounter{tocdepth}{2}
+\tableofcontents
+}
+
+\bookmarksetup{startatroot}
+
+\chapter*{Selamat Berjumpa}\label{selamat-berjumpa}
+\addcontentsline{toc}{chapter}{Selamat Berjumpa}
+
+\markboth{Selamat Berjumpa}{Selamat Berjumpa}
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=9.5\linewidth,height=\textheight,keepaspectratio]{images/AZRL.png}
+
+}
+
+\caption{About Me}
+
+\end{figure}%
+
+Armein Z R Langi adalah Guru Besar di Sekolah Teknik Elektro dan
+Informatika ITB, dosen ITB sejak Desember 1987, mantan Rektor
+Universitas Kristen Maranatha, 1 Maret 2016 s/d 29 Februari 2020, mantan
+Kepala Pusat Penelitian Teknologi Informasi dan Komunikasi (PP-TIK) ITB
+November 2005 s/d Maret 2010, dan Sekretaris MWA ITB Mei 2010-Jan 2011.
+
+Lahir di Tomohon 1962 dari pasangan Manado dan Sunda. Saat ini tinggal
+di Bandung, menikah dengan Ina dan dikaruniai empat anak. Ayah dari
+Gladys, Kezia, Andria, dan Marco.
+
+Sharing pikiran singkat ada di blog \url{https://azrl.wordpress.com}.
+Facebookk: armein\_langi
+
+Andria, putri saya, lumayan sering membaca blog ini. Dia juga sumber
+inspirasi tulisan saya. Dia senang menceritakan jokes pada saya, dan
+kalau bagus saya tulis di sini, terutama seri Kocak Ala Andria. Dan dia
+suka heran, karena isinya sudah berbeda. Memang saya senang
+mengubah-ngubah cerita karena saya tidak suka menjiplak mentah-mentah.
+Minggu lalu tidak sengaja dia memuji tulisan blog ini.
+
+``Papa\ldots{} papa\ldots{} ``, tanyanya, ``Tulisan blog papa itu
+copy-paste dari tulisan orang ya\ldots?''
+
+Haa? Ya nggak mungkin lah. Kecuali lirik lagu, semua artikel di sini
+ditulis sendiri.
+
+``Ah bohong, soalnya tulisannya terlalu banyak\ldots.'' katanya tetap
+tidak percaya, ``Nggak mungkinlah papa tulis sendiri\ldots{}''
+
+Hehe, saya tersenyum sambil membelai Andria, karena buat saya itu adalah
+ultimate compliment. Thanks sweetheart\ldots{}
+
+Jadi kalau orang tidak percaya bahwa sesuatu itu karya anda, anda yang
+buat, jangan marah. Itu adalah pujian yang sejati.
+
+\bookmarksetup{startatroot}
+
+\chapter{UTS-1 All About Me}\label{uts-1-all-about-me}
+
+Naufalziyadh Alif Bintang Shaeky (Falzi) 18224077 --- Sistem dan
+Teknologi Informasi Halo semuanya, aku Falzi. Katanya sih aku ini ESFP,
+si penghibur yang energinya kayak gak habis-habis. Buat aku, hidup tuh
+kayak panggung besar, dan tiap hari selalu ada aja hal baru yang bisa
+dibikin seru. Dunia ini gak cuma tentang masalah, tapi tentang gimana
+kita nikmatin prosesnya bareng orang-orang di sekitar kita. Kuliah di
+STI ngajarin aku soal logika dan sistem, tapi jujur, tempat ternyaman
+aku justru di tengah keramaian. Aku paling senang ikut kegiatan, ngobrol
+sama orang baru, dan ngerasain energi dari suasana yang rame. Buatku,
+hal paling keren dari sebuah sistem adalah interaksi antar manusia.
+Soalnya, suasana asik itu muncul kalau semua orang bisa nyatu dan
+ngerasa senang bareng. Aku juga termasuk orang yang peka sama suasana.
+Kalau lagi kumpul terus suasananya mulai kaku, aku sering jadi yang
+pertama sadar. Biasanya langsung mikir, ``kok sepi sih?'' Terus refleks
+nyari cara biar semua orang bisa ketawa lagi. Kadang cukup lewat obrolan
+kecil atau dengerin temen curhat. Yang penting semua orang ngerasa
+nyaman. Beberapa waktu terakhir aku sempat ngalamin beberapa hal yang
+gak enak, termasuk soal akademik. Tapi aku belajar buat gak terus
+tenggelam di situ. Aku lihat itu sebagai kesempatan buat tumbuh dan
+belajar hal baru. Kalau satu jalan ketutup, ya cari cara lain. Kadang
+malah ketemu hal yang lebih seru dari yang direncanain. Aku gak selalu
+semangat setiap waktu, kadang juga turun. Tapi justru dari situ aku
+belajar buat bangun hubungan yang kuat sama orang lain. Hubungan yang
+gak cuma karena seru di awal, tapi juga karena kita saling dukung dan
+peduli. Mimpiku sederhana. Aku pengen punya lingkungan pertemanan yang
+jadi tempatnya belajar bareng, saling peduli, dan bebas nyalurin ide.
+Aku pengen dikelilingi orang-orang yang bukan cuma pintar, tapi juga
+punya hati yang hangat. Kalau boleh dibilang, aku nyari temen yang jago
+mikir tapi juga baik hati. Temen yang bisa ngobrol dari hal receh sampai
+hal berat, tapi tetap bikin semua orang ngerasa diterima. Tempat di mana
+kita ngerasa punya rumah bareng.
+
+Itu aku, Falzi. Anak ESFP yang suka bikin suasana rame, tapi juga senang
+denger cerita orang. Buat aku, hidup itu soal berbagi energi positif dan
+bikin setiap momen jadi sesuatu yang bisa diinget bareng-bareng. Salam
+kenal ya, halo semua!
+
+\bookmarksetup{startatroot}
+
+\chapter{}\label{section}
+
+(Verse 1) Hei, kamu! Ngapain termangu? Mata menatap jauh ke sepatu
+Mikirin omongan si itu, si ini Takut salah, takut nggak keren lagi
+
+Dunia berputar cepat sekali Tik-tok, nggak akan menanti Kamu masih di
+situ, sibuk meragu Kapan mau maju?
+
+(Pre-Chorus) Jangan cuma jadi penonton Yang tepuk tangan sambil gigit
+jempol Hidup ini bukan film orang Ini panggungmu, ayo dong!
+
+(Chorus) Hidup ini cuma sekali! (Hei!) Coba semua yang kau ingini! Jatuh
+bangun itu pasti! Jangan sampai menyesal nanti! Aw aw aw awww Mendingan
+gagal daripada tak nyali! Aw aw aw awww Gas aja dulu, pikir belakangan!
+
+(Verse 2) Mau cat rambut warna pelangi? Mau teriak di puncak tertinggi?
+Mau belajar dansa atau main biola? Kenapa harus nunggu tua?
+
+Standar mereka bikin gila Nggak ada habisnya, percuma Ini badanmu, ini
+suaramu Terserah kamu, mau dibawa ke mana!
+
+(Pre-Chorus) Jangan cuma jadi penonton Yang tepuk tangan sambil gigit
+jempol Hidup ini bukan film orang Ini panggungmu, ayo dong!
+
+(Chorus) Hidup ini cuma sekali! (Hei!) Coba semua yang kau ingini! Jatuh
+bangun itu pasti! Jangan sampai menyesal nanti! Aw aw aw awww Mendingan
+gagal daripada tak nyali! Aw aw aw awww Gas aja dulu, pikir belakangan!
+
+(Bridge) Mungkin nanti kamu lebam Mungkin ceritanya kelam Tapi itu jauh
+lebih baik Daripada buku kosong tanpa coretan!
+
+Aku cuma mau bilang\ldots{} Dengerin aku\ldots{} SAYANGGGGGGGG!!! Ayo
+bangun!
+
+(Chorus) Hidup ini cuma sekali! (Hei!) Coba semua yang kau ingini! Jatuh
+bangun itu pasti! Jangan sampai menyesal nanti! Aw aw aw awww Mendingan
+gagal daripada tak nyali! Aw aw aw awww Gas aja dulu, pikir belakangan!
+
+(Outro) Coba semuanya! (Jangan menyesal!) Hidup sekali! (Coba semuanya!)
+Aw aw aw awww! Ya! Jangan sampai menyesal! (Musik berhenti mendadak di
+ketukan terakhir)
+
+\bookmarksetup{startatroot}
+
+\chapter{UTS-3 My Stories for You}\label{uts-3-my-stories-for-you}
+
+My Story For You Halo, ini aku lagi belajar buat UTS Jarkom, tapi
+tiba-tiba keinget kalau ada tugas bikin cerita. Jadi yaudah, cerita dulu
+deh sebelum otakku keburu meledak gara-gara subnetting dan protokol yang
+entah kenapa nggak masuk-masuk ke kepala. Kadang, di tengah tumpukan
+catatan dan angka-angka aneh itu, aku suka kepikiran hal-hal yang justru
+nggak ada hubungannya sama pelajaran. Kayak hari ini, aku kepikiran
+semua perjalanan yang udah kulewatin sejak pertama kali masuk ITB.
+Mungkin ini waktu yang pas buat berhenti sebentar, tarik napas, dan
+ngeliat ke belakang, bukan buat nyesel, tapi buat nginget gimana
+semuanya dimulai. Kalau ditarik mundur ke akhir tahun 2023, hidupku
+waktu itu cuma seputar tryout dan pengumuman. Masa-masa SNBP adalah fase
+di mana aku ngerasa semuanya bisa dikontrol. Aku yakin banget bisa masuk
+universitas impian tanpa drama. Tapi ternyata, dunia punya cara unik
+buat bikin kita sadar bahwa nggak semua bisa sesuai rencana. Tryout
+pertamaku cuma dapat nilai lima ratusan, angka yang awalnya bikin aku
+bengong lama di depan layar. Dari situ aku baru ngerti, percaya diri
+tanpa usaha itu sama aja kayak jalan di kabut, keliatannya aman, padahal
+nyasar pelan-pelan. Tapi nilai kecil itu justru jadi titik balik. Aku
+mulai rajin belajar, ikut bimbingan, dan pelan-pelan mulai ngerasa bahwa
+mungkin kegagalan itu bukan akhir, tapi peringatan kecil supaya aku
+nggak main-main. Hari pengumuman SNBP datang, dan seperti dugaan buruk
+yang berulang di kepala, aku gagal. Aku nggak diterima. Rasanya waktu
+itu kayak seluruh usaha selama berbulan-bulan tiba-tiba nggak ada
+artinya. Tapi anehnya, setelah nangis bentar dan diem lama, aku malah
+ngerasa tenang. Aku bilang ke diri sendiri, mungkin Tuhan cuma nyuruh
+aku muter dikit sebelum nyampe. Lalu aku ikut SNBT. Hasilnya? Nyaris.
+Tinggal satu langkah lagi, tapi kursi itu bukan buatku. Kalau dipikir
+sekarang, mungkin itu cara semesta bilang, ``Belum, tapi nanti.'' Jadi
+aku lanjut ambil ujian mandiri ITB. Aku belajar siang malam, bahkan
+sehari setelah wisuda masih buka catatan. Aku inget banget, ustaz di
+pondok ngasih doa panjang banget sebelum aku berangkat. Dan ternyata,
+doa itu beneran nyampe. Aku diterima di STEI-K ITB. Waktu baca
+pengumuman itu, aku cuma bisa bengong. Dunia yang sempet terasa gelap
+mendadak terang, dan aku nangis, bukan karena sedih, tapi karena
+akhirnya aku bisa lega. Masuk ITB, rasanya kayak dilempar ke dunia baru
+yang seru sekaligus menakutkan. Hari pertama kuliah, kampus lain sibuk
+ospek, tapi kami malah dikasih mata kuliah Pancasila. Lucu banget,
+pikirku waktu itu. Aku duduk di kelas, nggak kenal siapa-siapa, bingung
+mau mulai dari mana. Tapi dari kelas itulah aku pertama kali ngerasa
+punya tempat. Aku sekelompok sama orang-orang yang ternyata asik banget.
+Dari kerja kelompok, ngobrolin hal random, sampai akhirnya sering
+nongkrong bareng. Mereka yang awalnya cuma nama di daftar hadir,
+lama-lama jadi orang yang selalu aku cari tiap kali ada kelas baru. Di
+situlah aku sadar, ternyata pertemanan bisa tumbuh dari hal sekecil
+``ayo kerjain tugas bareng, yuk.'' Lalu datang OSKM. Ah, ini bagian yang
+susah banget dilupain. Capek, rame, berisik, tapi jujur, aku kangen.
+Hari-harinya penuh tawa, teriakan, dan sedikit drama. Aku ketemu banyak
+orang baru, bahkan sempet suka sama seseorang meski cuma sebentar. Tapi
+justru dari situ aku belajar hal yang jauh lebih penting. OSKM ngajarin
+aku cara ngeliat orang bukan cuma dari luar. Di antara semua keseruan
+dan kehebohan itu, aku mulai ngerti gimana tiap orang punya ceritanya
+sendiri. Ada yang berjuang, ada yang sembunyi di balik senyum, ada juga
+yang cuma pengen didengar. Dan di tengah kerumunan itu, aku ngerasa
+hidup. Setelah OSKM, hidup di kampus mulai berjalan seperti biasa.
+Sampai akhirnya aku ikut kepanitiaan pertamaku: Sekolah Tour. Awalnya
+cuma karena temen ngajak, aku mikirnya bakal seru aja kalau rame-rame.
+Tapi ternyata dari keputusan se-random itu, banyak banget hal yang
+berubah. Di awal, aku sempat nggak aktif beberapa hari karena sibuk sama
+urusan lain. Waktu balik lagi, suasananya udah beda. Semua orang udah
+akrab, udah punya ritme sendiri, dan aku merasa asing di antara tawa
+mereka. Tapi orang-orang di sana ternyata baik banget. Mereka tetap
+nyambut aku kayak nggak pernah ketinggalan apa-apa. Pelan-pelan aku
+mulai nyaman lagi. Hari itu, kami keliling lab rumpun elektronika.
+Mentor kami luar biasa enerjik. Suaranya lantang, matanya nyala waktu
+ngejelasin setiap alat di meja. Aku cuma bisa manggut-manggut, berusaha
+kelihatan paham padahal dalam hati cuma, ``Ini apaan sih?'' Tapi di
+balik semua itu, suasananya hangat banget. Kami foto bareng, ketawa
+bareng, dan bahkan sempat bercanda sampai lupa waktu. Tapi ada satu
+momen di mana aku tiba-tiba merasa diam. Di tengah tawa orang-orang, aku
+ngerasa jauh, kayak cuma penonton di cerita yang harusnya aku mainin
+sendiri. Mungkin itu perasaan capek, tapi entah kenapa, bagian itu
+justru paling kuingat sampai sekarang. Begitu acara selesai, aku pulang
+ke Bandung. Rumahku kecil, tapi selalu terasa besar setiap kali aku
+masuk. Bunda lagi masak di dapur, wangi tumisan langsung nyambut dari
+pintu. ``Gimana hari ini?'' tanya Bunda. Aku cuma bisa nyengir, ``Capek
+banget, Bun. Rasanya pengen tidur seharian.'' Tapi Bunda cuma ketawa
+kecil dan bilang, ``Capek itu tandanya kamu lagi ngelakuin sesuatu yang
+berharga.'' Aku diem lama waktu itu. Kalimat sederhana yang entah kenapa
+terasa dalam banget. Mungkin itu alasan kenapa setiap kali aku ngerasa
+lelah, aku selalu inget perkataan itu. Setelah hari itu, semuanya
+berjalan cepat. UAS datang, tugas menumpuk, dan kepanitiaan mulai terasa
+jauh. Grup panitia di HP cuma kubaca sekilas, niat bales tapi
+ujung-ujungnya malah aku tutup lagi. Kadang aku pengen aktif lagi, tapi
+selalu ada suara kecil di kepala yang bilang, ``Udah telat.'' Sampai
+suatu malam, ada pesan masuk dari salah satu panitia. Pesannya pendek
+aja, nanyain apakah aku masih mau ikut kegiatan lanjutan. Aku sempat
+ragu mau jawab apa. Tapi kalimat terakhirnya bikin aku diem lama,
+``Kalau gitu kamu ikut UAS-nya kan, kann?'' Entah kenapa, kalimat
+sesederhana itu bikin dadaku anget. Ada orang yang masih inget aku,
+bahkan ketika aku sendiri udah mulai lupa. Dan dari situ aku ngerti,
+kadang yang kita butuhin cuma satu orang yang ngulurin tangan duluan.
+Itu malam aku mikir lama. Tentang betapa seringnya aku mundur cuma
+karena takut ketinggalan. Padahal sebenarnya nggak ada yang benar-benar
+terlambat kalau kita mau balik lagi. Mungkin makna ``ikatan'' bukan cuma
+soal siapa yang selalu bareng, tapi tentang siapa yang masih inget kita
+ketika kita nggak ada. Sekolah Tour akhirnya bukan cuma kegiatan kampus
+buatku, tapi titik di mana aku belajar tentang hubungan. Tentang rasa
+lelah yang ternyata nggak sia-sia, tentang teman yang nggak pernah
+berhenti percaya, dan tentang diriku sendiri yang belajar buat nggak
+takut mulai dari awal. Sekarang, di tengah malam yang dingin dan
+tumpukan catatan Jarkom yang belum aku sentuh lagi, aku senyum sendiri.
+Dari anak SMA yang dulu gagal tryout, sekarang aku duduk di kampus
+impian, nulis cerita tentang perjalanan yang nggak sempurna tapi nyata.
+Semua perjuangan, tawa, bahkan rasa ragu, ternyata punya tempatnya
+masing-masing. Mungkin nanti kalau aku baca tulisan ini lagi, aku bakal
+bilang ke diri sendiri, ``Lihat, kamu dulu cuma pengen lulus tryout,
+tapi sekarang kamu lagi nulis cerita hidupmu sendiri.'' Dan mungkin di
+situlah inti dari semuanya. Bukan soal seberapa cepat sampai, tapi
+seberapa tulus kita jalanin setiap langkahnya, bareng orang-orang yang
+selalu ngingetin kita buat terus maju, meski pelan.
+
+\bookmarksetup{startatroot}
+
+\chapter{UTS-4 My SHAPE (Spiritual Gifts, Heart, Abilities, Personality,
+Experiences)}\label{uts-4-my-shape-spiritual-gifts-heart-abilities-personality-experiences}
+
+My SHAPE Halo, aku Falzi. Kali ini aku mau cerita tentang satu hal yang
+lumayan menarik buat aku, yaitu My SHAPE. Buatku, ini bukan sekadar
+tugas refleksi, tapi cara buat lebih kenal sama diri sendiri. Aku pengen
+jujur dan apa adanya, karena setiap orang punya caranya sendiri buat
+tumbuh dan bersinar. S --- Signature Strengths (Kekuatan Utamaku) Kalau
+ditanya apa kekuatanku, aku nggak langsung mikir soal kemampuan
+akademik. Aku lebih ngerasa kekuatanku ada di energi positif dan caraku
+berinteraksi sama orang lain. Aku paling hidup kalau bisa ngobrol, kerja
+bareng, atau bikin suasana jadi lebih santai. Dari situ biasanya muncul
+ide-ide spontan yang nggak kepikiran sebelumnya. Selain itu, aku cepat
+banget menyesuaikan diri. Di tempat baru, aku nggak butuh waktu lama
+buat nyatu sama lingkungan. Aku senang denger cerita orang, jadi aku
+mudah nyambung dengan berbagai karakter. Rasanya kayak punya tombol
+``connect'' yang langsung aktif setiap kali ketemu orang baru. H ---
+Heart (Hal yang Bikin Aku Peduli dan Bersemangat) Bagian ini yang paling
+ngena buat aku. Hatiku paling hidup kalau lagi di tengah-tengah orang
+yang punya semangat yang sama. Aku suka suasana ramai yang hangat, di
+mana semua orang bisa jadi diri sendiri. Dari situ aku ngerasa, ternyata
+kebahagiaan itu bukan soal pencapaian pribadi, tapi soal kebersamaan.
+Aku punya nilai yang selalu aku pegang, yaitu membuat lingkungan di
+sekitarku jadi lebih menyenangkan. Aku suka jadi bagian dari sesuatu
+yang bisa bikin orang lain ngerasa diterima dan dihargai. Karena aku
+percaya, kebahagiaan itu menular. A --- Aptitudes \& Acquired Skills
+(Bakat dan Kemampuan yang Aku Kembangin) Kalau dibayangin kayak
+perjalanan game, aku punya dua jenis kemampuan. Pertama, kemampuan alami
+yang udah ada dari dulu, dan kedua, kemampuan yang aku bangun selama
+proses belajar di kampus. Kemampuan alami yang paling aku rasain adalah
+mudah bergaul dan punya empati. Aku bisa ngerasain perubahan suasana dan
+tahu kapan harus ngomong, kapan harus dengerin. Ini bantu banget waktu
+kerja kelompok atau ngurus kegiatan bareng teman-teman. Kemampuan yang
+aku kembangin sekarang lebih ke arah analisis dan pemecahan masalah. Di
+STI, aku belajar cara berpikir sistematis dan mencari solusi yang
+efisien. Tapi aku juga pengen kemampuan itu tetap punya sentuhan
+manusiawi, supaya hasilnya nggak cuma berguna secara teknis tapi juga
+bisa membantu kehidupan orang lain. Selain itu, aku juga terus ngasah
+kemampuan bicara di depan umum, karena aku suka banget berbagi energi
+positif ke orang banyak. P --- Personality (Kepribadian yang Ngebentuk
+Cara Aku Melihat Dunia) Aku termasuk orang yang spontan, terbuka, dan
+penuh rasa ingin tahu. Aku lebih suka langsung turun ke lapangan
+daripada cuma mikirin teori. Hal baru selalu bikin aku semangat, apalagi
+kalau bisa ngerasain langsung pengalaman itu. Aku juga tipe orang yang
+fokus ke momen sekarang. Aku percaya hidup itu lebih bermakna kalau
+dijalani sepenuh hati, bukan cuma dipikirin. Kadang aku bisa terlalu
+terbawa suasana, tapi dari situ juga aku belajar banyak hal tentang
+keseimbangan antara perasaan dan logika. E --- Experiences (Pengalaman
+yang Ngebentuk Aku Sampai Sekarang) Setiap pengalaman yang aku lewatin
+punya ceritanya sendiri. Ada yang lucu, ada yang bikin jatuh, tapi
+semuanya berharga. Aku pernah ngalamin masa-masa di mana semangatku
+turun karena hasil yang nggak sesuai harapan. Tapi dari situ aku belajar
+buat nggak berhenti. Aku sadar kalau tumbuh itu nggak selalu terasa
+enak, tapi justru dari situ kita tahu sejauh apa kita udah berjalan.
+Setiap kegagalan ngasih pelajaran tentang sabar dan percaya proses. Dan
+setiap pertemuan dengan orang baru selalu ngasih sudut pandang yang
+bikin aku berkembang. Semua itu ngebentuk aku jadi orang yang lebih kuat
+dan lebih peduli. Itu versi SHAPE-ku. Buatku, ini bukan cuma kumpulan
+poin tentang diri sendiri, tapi juga perjalanan buat mengenal siapa aku
+sebenarnya. Aku belajar bahwa kekuatan itu bukan selalu soal kemampuan
+besar, tapi soal keinginan buat terus mencoba, peduli, dan belajar dari
+setiap momen. Hidup mungkin bisa dibilang kayak panggung, tapi aku nggak
+pengen cuma tampil di atasnya. Aku pengen bikin panggung itu jadi tempat
+di mana semua orang bisa bersinar bareng, saling dukung, dan tumbuh
+sama-sama. Karena di akhir hari, yang paling penting bukan seberapa
+besar cahayamu, tapi seberapa banyak cahaya yang bisa kamu bagikan ke
+sekitar.
+
+\bookmarksetup{startatroot}
+
+\chapter*{Selamat Berjumpa}\label{selamat-berjumpa-1}
+\addcontentsline{toc}{chapter}{Selamat Berjumpa}
+
+\markboth{Selamat Berjumpa}{Selamat Berjumpa}
+
+\begin{figure}[H]
+
+{\centering \includegraphics[width=9.5\linewidth,height=\textheight,keepaspectratio]{My_Personal_Reviews/images/AZRL.png}
+
+}
+
+\caption{About Me}
+
+\end{figure}%
+
+Armein Z R Langi adalah Guru Besar di Sekolah Teknik Elektro dan
+Informatika ITB, dosen ITB sejak Desember 1987, mantan Rektor
+Universitas Kristen Maranatha, 1 Maret 2016 s/d 29 Februari 2020, mantan
+Kepala Pusat Penelitian Teknologi Informasi dan Komunikasi (PP-TIK) ITB
+November 2005 s/d Maret 2010, dan Sekretaris MWA ITB Mei 2010-Jan 2011.
+
+Lahir di Tomohon 1962 dari pasangan Manado dan Sunda. Saat ini tinggal
+di Bandung, menikah dengan Ina dan dikaruniai empat anak. Ayah dari
+Gladys, Kezia, Andria, dan Marco.
+
+Sharing pikiran singkat ada di blog \url{https://azrl.wordpress.com}.
+Facebookk: armein\_langi
+
+Andria, putri saya, lumayan sering membaca blog ini. Dia juga sumber
+inspirasi tulisan saya. Dia senang menceritakan jokes pada saya, dan
+kalau bagus saya tulis di sini, terutama seri Kocak Ala Andria. Dan dia
+suka heran, karena isinya sudah berbeda. Memang saya senang
+mengubah-ngubah cerita karena saya tidak suka menjiplak mentah-mentah.
+Minggu lalu tidak sengaja dia memuji tulisan blog ini.
+
+``Papa\ldots{} papa\ldots{} ``, tanyanya, ``Tulisan blog papa itu
+copy-paste dari tulisan orang ya\ldots?''
+
+Haa? Ya nggak mungkin lah. Kecuali lirik lagu, semua artikel di sini
+ditulis sendiri.
+
+``Ah bohong, soalnya tulisannya terlalu banyak\ldots.'' katanya tetap
+tidak percaya, ``Nggak mungkinlah papa tulis sendiri\ldots{}''
+
+Hehe, saya tersenyum sambil membelai Andria, karena buat saya itu adalah
+ultimate compliment. Thanks sweetheart\ldots{}
+
+Jadi kalau orang tidak percaya bahwa sesuatu itu karya anda, anda yang
+buat, jangan marah. Itu adalah pujian yang sejati.
+
+\bookmarksetup{startatroot}
+
+\chapter{Summary}\label{summary}
+
+In summary, this book has no content whatsoever.
+
+\bookmarksetup{startatroot}
+
+\chapter*{References}\label{references}
+\addcontentsline{toc}{chapter}{References}
+
+\markboth{References}{References}
+
+\phantomsection\label{refs}
+
+
+
+
+\end{document}

@@ -3,9 +3,9 @@ project:
   output-dir: docs
 
 book:
-  title: "Armein Z. R. Langi"
+  title: "Naufalziyadh Alif Bintang Shaeky"
   subtitle: "Portfolio Asesmen II-2100 KIPP"
-  author: "131902360 Armein Z R Langi"
+  author: "18224077 Naufalziyadh Alif Bintang S"
   date: "9/15/2025"
   chapters:
     - index.qmd
@@ -14,11 +14,6 @@ book:
     - My_Stories_for_You/index.qmd
     - My_Shapes/index.qmd
     - My_Personal_Reviews/index.qmd
-    - My_Concepts/index.qmd
-    - My_Opinions/index.qmd
-    - My_Innovations/index.qmd
-    - My_Knowledge/index.qmd
-    - My_Professional_Reviews/index.qmd
     - summary.qmd
     - references.qmd
 
