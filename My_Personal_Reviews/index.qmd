@@ -1,22 +1,26 @@
-# Selamat Berjumpa {.unnumbered}
+# UTS 5 - My Personal Reviews
 
-![About Me](images/AZRL.png){width=950%}
-
-Armein Z R Langi adalah Guru Besar di Sekolah Teknik Elektro dan Informatika ITB, dosen ITB sejak Desember 1987, mantan Rektor Universitas Kristen Maranatha, 1 Maret 2016 s/d 29 Februari 2020, mantan Kepala Pusat Penelitian Teknologi Informasi dan Komunikasi (PP-TIK) ITB November 2005 s/d Maret 2010, dan Sekretaris MWA ITB Mei 2010-Jan 2011.
-
-Lahir di Tomohon 1962 dari pasangan Manado dan Sunda. Saat ini tinggal di Bandung, menikah dengan Ina dan dikaruniai empat anak. Ayah dari Gladys, Kezia, Andria, dan Marco.
-
-Sharing pikiran singkat ada di blog <https://azrl.wordpress.com>. Facebookk: armein_langi
-
-Andria, putri saya, lumayan sering membaca blog ini.  Dia juga sumber inspirasi tulisan saya.  Dia senang menceritakan jokes pada saya, dan kalau bagus saya tulis di sini, terutama seri Kocak Ala Andria.  Dan dia suka heran, karena isinya sudah berbeda.  Memang saya senang mengubah-ngubah cerita karena saya tidak suka menjiplak mentah-mentah.  Minggu lalu tidak sengaja dia memuji tulisan blog ini.
-
-
-“Papa… papa… “, tanyanya, “Tulisan blog papa itu copy-paste dari tulisan orang ya…?”
-
-Haa? Ya nggak mungkin lah.  Kecuali lirik lagu, semua artikel di sini ditulis sendiri.
-
-“Ah bohong, soalnya tulisannya terlalu banyak….” katanya tetap tidak percaya, “Nggak mungkinlah papa tulis sendiri…”
-
-Hehe, saya tersenyum sambil membelai Andria, karena buat saya itu adalah ultimate compliment.  Thanks sweetheart…
-
-Jadi kalau orang tidak percaya bahwa sesuatu itu karya anda, anda yang buat, jangan marah.  Itu adalah pujian yang sejati.
+Hasil Self-Assessment UTS (URL: ii-2100.github.io/all-about-me/falzi) 6.1 Identifikasi Nama & NIM penulis: Naufalziyadh Alif Bintang Shaeky – 18224077 (Sistem dan Teknologi Informasi) Penilai: Self-assessment (Naufalziyadh Alif Bintang Shaeky) Catatan cakupan: Halaman beranda menampilkan “All About Me” (UTS-1). Navigasi ke “My Songs for You”, “My Stories for You”, dan “My SHAPE” tersedia, masing-masing berisi karya lengkap (teks, refleksi, dan audio untuk lagu). (II 2100) 6.2 Tinjauan Umum\
+\
+● UTS-1 (All About Me): Tulisan memperkenalkan identitas dan kepribadian penulis dengan gaya naratif reflektif yang kuat. Cerita disusun secara personal dan jujur, dengan keseimbangan antara humor ringan dan refleksi mendalam. \
+\
+● UTS-2 (My Songs for You): Lirik lagu “Terjang Batas” menampilkan pesan motivatif dengan bahasa yang santai dan penuh energi. Struktur lirik tersusun rapi (verse–chorus–bridge), dengan pesan eksplisit tentang keberanian mencoba. \
+\
+● UTS-3 (My Stories for You): Cerita “My Story for You” memadukan pengalaman akademik, sosial, dan personal secara padu. Narasinya hidup, reflektif, dan memiliki kedalaman emosional yang kuat. \
+\
+● UTS-4 (My SHAPE): Refleksi diri ditulis dengan sistematis dan menggambarkan integrasi yang baik antara kekuatan pribadi, nilai, dan pengalaman hidup. Setiap poin SHAPE saling terhubung dan disusun dengan alur reflektif yang konsisten. 6.3 Tinjauan Spesifik + Skor (1–5) 6.3.1 \
+\
+UTS-1 — All About Me Skor per kriteria: Orisinalitas 5, Keterlibatan 5, Humor 4, Wawasan 5 → Total 19/20 (95%) Alasan singkat: Tulisan personal, jujur, dan menggugah. Narasi lancar, dengan humor ringan dan insight yang bermakna. Menunjukkan pemahaman diri dan kemampuan refleksi yang matang. Saran perbaikan: Tambahkan satu-dua kalimat yang merangkum “pesan utama” di akhir untuk memperkuat penutupan reflektif. 6.3.2 \
+\
+UTS-2 — My Songs for You Skor per kriteria: Orisinalitas 5, Keterlibatan 5, Humor 4, Inspirasi 5 → Total 19/20 (95%) Alasan singkat: Lirik orisinal, energik, dan penuh semangat. Penggunaan bahasa sehari-hari terasa hidup dan membangun koneksi dengan pendengar. Struktur musikal kuat dan berirama. Saran perbaikan: Tambahkan sedikit deskripsi tentang proses kreatif atau inspirasi di balik lagu agar konteks emosinya lebih terasa. 6.3.3 \
+\
+UTS-3 — My Stories for You Skor per kriteria: Orisinalitas 5, Keterlibatan 5, Pengembangan Narasi 5, Inspirasi 5 → Total 20/20 (100%) Alasan singkat: Narasi personal yang hangat dan reflektif. Struktur cerita rapi dan progresif, dengan detail emosional yang kuat. Penutupnya memberi pesan moral yang jelas tanpa terasa menggurui. Saran perbaikan: Tambahkan satu kalimat ringkasan di awal yang memperkenalkan pesan utama agar pembaca langsung memahami arah narasi. 6.3.4 \
+\
+UTS-4 — My SHAPE Skor per kriteria: Orisinalitas 5, Keterlibatan 5, Pengembangan Narasi 5, Inspirasi 5 → Total 20/20 (100%) Alasan singkat: Refleksi diri sangat kuat, dengan gaya bahasa yang ringan dan jujur. Setiap bagian SHAPE saling melengkapi dan menunjukkan pemahaman mendalam tentang karakter serta nilai pribadi. Saran perbaikan: Pertimbangkan menambahkan satu paragraf pembuka yang menjelaskan makna SHAPE bagi kamu secara keseluruhan sebelum masuk ke subbagian.\
+\
+6.4 Rekapitulasi Akhir N o 1 UTS Aspek Dinilai All About Me Orisinalitas, Keterlibatan, Humor, Wawasan 2 3 4 My Songs for You My Stories for You Orisinalitas, Keterlibatan, Humor, Inspirasi Orisinalitas, Keterlibatan, Pengembangan, Inspirasi My SHAPE Orisinalitas, Keterlibatan, Pengembangan, Inspirasi \
+\
+Skor Total: 19/20 19/20 20/20 20/20 \
+Persentase: 95% 95% 100% 100% \
+Keterangan: Sangat Baik Sangat Baik Sangat Baik Sangat Baik \
+Komentar Umum: Portofolio menunjukkan refleksi diri yang matang, ekspresif, dan konsisten dalam gaya naratif. Semua karya menghadirkan kepribadian yang jujur dan positif. Gaya tulisan komunikatif serta ritme narasi yang hidup menjadi kekuatan utama.
