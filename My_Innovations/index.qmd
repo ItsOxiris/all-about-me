@@ -1,0 +1,27 @@
+---
+title: "UAS-3 My Innovations"
+author: "Naufalziyadh Alif Bintang Shaeky"
+format:
+  html:
+    theme: cosmo
+    toc: false
+---
+
+## **Narrative Canvas: Infrastruktur Komunikasi Berbasis Kesadaran Diri**
+
+![Innovation](../images/innovation.png)
+
+Inovasi yang saya ajukan lahir dari satu kesenjangan utama dalam praktik komunikasi modern: banyak individu memiliki gagasan, tetapi tidak memiliki **wadah reflektif** untuk mengartikulasikannya secara bermakna.
+
+**Narrative Canvas** adalah sebuah platform konseptual yang dirancang sebagai ruang latihan komunikasi berbasis cerita hidup. Platform ini tidak mengajarkan “cara berbicara yang baik”, melainkan **cara memahami diri sebelum berbicara**.
+
+Narrative Canvas dibangun di atas tiga pilar utama:
+1. **Refleksi Diri** – menggali pengalaman personal sebagai sumber makna,
+2. **Struktur Pesan** – mengubah pengalaman menjadi narasi komunikatif,
+3. **Empati Audiens** – menguji dampak pesan terhadap orang lain.
+
+Melalui sistem *story prompt*, pengguna dipandu untuk mengurai pengalaman hidup menjadi nilai, konflik, dan pembelajaran. Pesan yang dihasilkan bukan sekadar informatif, tetapi autentik dan berakar pada identitas.
+
+Dalam konteks KIPP, Narrative Canvas berfungsi sebagai **mesin pembangun kapasitas komunikasi**—menghubungkan kesadaran diri, empati, dan efektivitas pesan. Inovasi ini menempatkan komunikasi bukan sebagai output instan, tetapi sebagai proses pemaknaan berkelanjutan.
+
+Narrative Canvas bukan sekadar produk, melainkan **infrastruktur kesadaran komunikasi**.

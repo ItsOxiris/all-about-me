@@ -1,0 +1,27 @@
+---
+title: "UAS-2 My Opinions"
+author: "Naufalziyadh Alif Bintang Shaeky"
+format:
+  html:
+    theme: cosmo
+    toc: false
+---
+
+## **Refleksi sebagai Tindakan Etis dalam Budaya Komunikasi Reaktif**
+
+![Reflection](../images/reflection.png)
+
+Opini saya berangkat dari pengamatan bahwa dunia digital telah menggeser komunikasi dari proses reflektif menjadi respons impulsif. Kita hidup dalam ekosistem yang menghargai kecepatan reaksi lebih tinggi daripada kedalaman pemikiran. Dalam kondisi ini, berbicara sering kali lebih cepat daripada memahami.
+
+Menurut saya, sikap terbaik yang harus diambil manusia modern adalah **reflektif sebelum reaktif**. Refleksi bukan kelemahan, melainkan bentuk tanggung jawab etis dalam berkomunikasi.
+
+Komunikasi reaktif cenderung:
+- mengedepankan emosi sesaat,
+- mengabaikan konteks sosial,
+- dan memproduksi konflik alih-alih dialog.
+
+Sebaliknya, komunikasi reflektif menuntut keberanian untuk berhenti sejenak—menimbang nilai, dampak, dan makna pesan sebelum disampaikan. Dalam perspektif Komunikasi Interpersonal dan Publik, refleksi adalah mekanisme pengendalian diri yang menjaga komunikasi tetap manusiawi.
+
+Saya berpendapat bahwa di tengah banjir opini dan suara, tindakan paling progresif justru adalah **kesediaan untuk berpikir sebelum berbicara**. Refleksi menjadikan komunikasi bukan sekadar ekspresi diri, tetapi kontribusi terhadap ruang publik yang sehat.
+
+Dengan demikian, refleksi bukan hanya sikap personal, melainkan **tindakan sosial** yang menentukan kualitas relasi dan keberlanjutan dialog dalam masyarakat digital.

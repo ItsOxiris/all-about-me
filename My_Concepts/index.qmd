@@ -1,0 +1,30 @@
+---
+title: "UAS-1 My Concepts"
+author: "Naufalziyadh Alif Bintang Shaeky"
+format:
+  html:
+    theme: cosmo
+    toc: false
+---
+
+## **Identitas Naratif: Rekayasa Makna dalam Era Komunikasi Digital**
+
+![Identity](../images/identity.png)
+
+Konsep saya berangkat dari satu kegelisahan mendasar: di tengah derasnya arus komunikasi digital, manusia semakin fasih berbicara, tetapi semakin jarang **benar-benar menyampaikan siapa dirinya**. Kita hidup dalam dunia yang penuh pesan, namun miskin makna. Fenomena ini bukan sekadar krisis komunikasi, melainkan **krisis identitas dalam komunikasi**.
+
+Saya menyebut fondasi untuk menjawab krisis ini sebagai **Identitas Naratif**—sebuah kerangka konseptual yang memandang manusia sebagai makhluk pencerita yang membangun makna hidup melalui rangkaian pengalaman, refleksi, dan tujuan.
+
+Identitas naratif bukan sekadar cerita tentang masa lalu, melainkan **arsitektur makna** yang menghubungkan:
+- pengalaman yang membentuk nilai,
+- kesadaran diri di masa kini,
+- dan arah hidup yang ingin dituju.
+
+Dalam konteks komunikasi interpersonal dan publik, identitas naratif berfungsi sebagai **sistem pengarah pesan**. Ia menjawab tiga pertanyaan fundamental komunikasi:
+- *Mengapa* saya berbicara?
+- *Dari nilai apa* pesan ini lahir?
+- *Untuk makna apa* pesan ini disampaikan?
+
+Tanpa identitas naratif, komunikasi berubah menjadi sekadar performa—optimasi kata tanpa jiwa. Namun ketika komunikasi berakar pada narasi diri, pesan memperoleh daya resonansi emosional dan etis.
+
+Dengan demikian, komunikasi yang bermakna di era digital bukanlah soal kecepatan, viralitas, atau kecanggihan medium, melainkan **rekayasa makna berbasis identitas manusia**. Inilah kontribusi konseptual yang saya ajukan dalam memahami komunikasi sebagai praktik kemanusiaan, bukan sekadar keterampilan teknis.
