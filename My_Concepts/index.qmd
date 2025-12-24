@@ -1,30 +1,32 @@
----
-title: "UAS-1 My Concepts"
-author: "Naufalziyadh Alif Bintang Shaeky"
-format:
-  html:
-    theme: cosmo
-    toc: false
----
+# UAS-1 My Concepts
 
-## **Identitas Naratif: Rekayasa Makna dalam Era Komunikasi Digital**
+## Perubahan Iklim sebagai Krisis Komunikasi Kolektif Umat Manusia
 
-![Identity](../images/identity.png)
+![Climate](../images/climate.jpg)
 
-Konsep saya berangkat dari satu kegelisahan mendasar: di tengah derasnya arus komunikasi digital, manusia semakin fasih berbicara, tetapi semakin jarang **benar-benar menyampaikan siapa dirinya**. Kita hidup dalam dunia yang penuh pesan, namun miskin makna. Fenomena ini bukan sekadar krisis komunikasi, melainkan **krisis identitas dalam komunikasi**.
+Perubahan iklim sering dipahami sebagai persoalan ilmiah: kenaikan suhu rata-rata bumi, emisi karbon, mencairnya es kutub, atau meningkatnya frekuensi bencana alam. Namun, pemahaman tersebut hanya menyentuh permukaan dari persoalan yang jauh lebih dalam. Dalam perspektif komunikasi dan sistem sosial, perubahan iklim adalah **krisis koordinasi dan krisis komunikasi kolektif umat manusia**.
 
-Saya menyebut fondasi untuk menjawab krisis ini sebagai **Identitas Naratif**—sebuah kerangka konseptual yang memandang manusia sebagai makhluk pencerita yang membangun makna hidup melalui rangkaian pengalaman, refleksi, dan tujuan.
+Dunia saat ini tidak kekurangan data tentang perubahan iklim. Laporan IPCC, WHO, dan berbagai lembaga internasional telah berulang kali memperingatkan dampak serius krisis iklim terhadap kehidupan manusia. Ironisnya, meskipun informasi tersedia secara masif, respons global masih lamban, terfragmentasi, dan sering kali kontradiktif. Di sinilah letak masalah utamanya: **pengetahuan tidak otomatis menghasilkan tindakan**.
 
-Identitas naratif bukan sekadar cerita tentang masa lalu, melainkan **arsitektur makna** yang menghubungkan:
-- pengalaman yang membentuk nilai,
-- kesadaran diri di masa kini,
-- dan arah hidup yang ingin dituju.
+### Krisis Makna di Tengah Limpahan Informasi
 
-Dalam konteks komunikasi interpersonal dan publik, identitas naratif berfungsi sebagai **sistem pengarah pesan**. Ia menjawab tiga pertanyaan fundamental komunikasi:
-- *Mengapa* saya berbicara?
-- *Dari nilai apa* pesan ini lahir?
-- *Untuk makna apa* pesan ini disampaikan?
+Salah satu keistimewaan pengetahuan yang saya tawarkan adalah melihat perubahan iklim sebagai persoalan *makna bersama* (*shared meaning*). Informasi ilmiah yang disampaikan tanpa kerangka komunikasi yang tepat sering gagal membangun keterlibatan emosional dan rasa tanggung jawab publik. Bagi sebagian masyarakat, perubahan iklim terasa terlalu abstrak, terlalu jauh, atau dianggap sebagai masalah generasi mendatang.
 
-Tanpa identitas naratif, komunikasi berubah menjadi sekadar performa—optimasi kata tanpa jiwa. Namun ketika komunikasi berakar pada narasi diri, pesan memperoleh daya resonansi emosional dan etis.
+Akibatnya, pesan publik tentang iklim sering kalah oleh narasi lain yang lebih sederhana, lebih emosional, atau lebih dekat dengan kepentingan jangka pendek. Ini menunjukkan bahwa tantangan utama bukan lagi “apa yang harus kita ketahui”, melainkan **bagaimana pengetahuan tersebut dikomunikasikan agar dipahami, dipercaya, dan diinternalisasi**.
 
-Dengan demikian, komunikasi yang bermakna di era digital bukanlah soal kecepatan, viralitas, atau kecanggihan medium, melainkan **rekayasa makna berbasis identitas manusia**. Inilah kontribusi konseptual yang saya ajukan dalam memahami komunikasi sebagai praktik kemanusiaan, bukan sekadar keterampilan teknis.
+### Perspektif KIPP dalam Memahami Krisis Iklim
+
+Dalam kerangka Komunikasi Interpersonal dan Publik (KIPP), perubahan iklim dapat dipahami sebagai kegagalan komunikasi lintas level:
+- **Interpersonal**, ketika individu tidak merasa terhubung secara personal dengan dampak iklim.
+- **Kelompok dan komunitas**, ketika percakapan tentang iklim terjebak dalam polarisasi atau apatisme.
+- **Publik dan institusional**, ketika pesan kebijakan tidak sinkron dengan realitas sosial dan budaya masyarakat.
+
+Tanpa komunikasi yang membangun empati, kejelasan makna, dan rasa kepemilikan bersama, kebijakan iklim berisiko menjadi sekadar dokumen administratif tanpa daya transformasi.
+
+### Menuju Kesadaran Kolektif
+
+Konsep ini menempatkan perubahan iklim bukan hanya sebagai ancaman lingkungan, tetapi sebagai **ujian terbesar kemampuan manusia untuk berkomunikasi dan bekerja sama secara global**. Ketika manusia gagal menyepakati makna, nilai, dan urgensi suatu masalah, bahkan ancaman eksistensial pun dapat diabaikan.
+
+Dengan demikian, solusi perubahan iklim tidak hanya membutuhkan inovasi teknologi atau regulasi ekonomi, tetapi juga **inovasi komunikasi**: cara baru bercerita, berdialog, dan membangun kesadaran publik. Inilah inti dari konsep yang saya ajukan—bahwa masa depan bumi sangat ditentukan oleh kemampuan kita membangun komunikasi kolektif yang bermakna, inklusif, dan berorientasi pada keberlanjutan.
+
+Perubahan iklim, pada akhirnya, adalah cermin dari relasi manusia dengan pengetahuan, sesama manusia, dan alam. Cara kita mengomunikasikannya akan menentukan apakah krisis ini menjadi kehancuran kolektif atau titik balik peradaban.

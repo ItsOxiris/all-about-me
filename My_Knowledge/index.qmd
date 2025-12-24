@@ -1,30 +1,30 @@
----
-title: "UAS-4 My Knowledge"
-author: "Naufalziyadh Alif Bintang Shaeky"
-format:
-  html:
-    theme: cosmo
-    toc: false
----
+# UAS-4 My Knowledge
 
-## **Komunikasi Bermakna sebagai Pengetahuan Sosial**
+## Perubahan Iklim dan Dampaknya terhadap Kehidupan Manusia
 
-![Knowledge](../images/knowledge.png)
+Perubahan iklim adalah perubahan jangka panjang pada pola cuaca global yang terutama disebabkan oleh peningkatan emisi gas rumah kaca dari aktivitas manusia. Gas-gas ini menjebak panas di atmosfer dan menyebabkan kenaikan suhu bumi secara bertahap.
 
-Pengetahuan terpenting yang saya peroleh dari perkuliahan ini adalah bahwa komunikasi bukan hanya keterampilan individual, melainkan **praktik sosial yang membentuk realitas bersama**.
+### Dampak Utama Perubahan Iklim
 
-Komunikasi yang bermakna lahir dari tiga kesadaran utama:
-- kesadaran akan diri,
-- kesadaran akan orang lain,
-- dan kesadaran akan dampak pesan.
+1. **Lingkungan**
+   - Mencairnya es kutub
+   - Naiknya permukaan laut
+   - Hilangnya keanekaragaman hayati
 
-Masyarakat sering memahami komunikasi sebagai kemampuan berbicara. Namun, pembelajaran dari KIPP menunjukkan bahwa komunikasi yang sehat justru dimulai dari **kemampuan mendengarkan, merefleksikan, dan memahami konteks**.
+2. **Kesehatan**
+   - Peningkatan penyakit akibat panas ekstrem
+   - Penyebaran penyakit menular
+   - Gangguan kesehatan mental pasca-bencana
 
-Pengetahuan ini relevan bagi masyarakat karena:
-- mengurangi konflik berbasis miskomunikasi,
-- memperkuat dialog antarindividu,
-- dan membangun relasi sosial yang berkelanjutan.
+3. **Sosial dan Ekonomi**
+   - Gangguan produksi pangan
+   - Krisis air bersih
+   - Migrasi dan konflik sumber daya
 
-Dengan menempatkan empati dan refleksi sebagai inti komunikasi, masyarakat dapat bergerak dari budaya reaktif menuju budaya dialogis.
+### Mengapa Pengetahuan Ini Penting?
 
-Komunikasi, pada akhirnya, bukan sekadar pertukaran pesan, melainkan **proses kolektif membangun makna hidup bersama**.
+Pemahaman masyarakat tentang perubahan iklim menentukan kualitas respons kolektif. Tanpa pengetahuan yang benar, masyarakat rentan terhadap misinformasi dan penolakan terhadap kebijakan berbasis sains.
+
+### Peran Pendidikan dan Komunikasi
+
+Pendidikan iklim perlu disampaikan secara kontekstual, relevan, dan berkelanjutan. Komunikasi publik berperan penting dalam menjembatani sains dengan kehidupan sosial masyarakat agar pengetahuan tidak berhenti pada kesadaran, tetapi berlanjut pada tindakan.

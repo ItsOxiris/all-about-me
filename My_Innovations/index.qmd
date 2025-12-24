@@ -1,27 +1,28 @@
----
-title: "UAS-3 My Innovations"
-author: "Naufalziyadh Alif Bintang Shaeky"
-format:
-  html:
-    theme: cosmo
-    toc: false
----
+# UAS-3 My Innovations
 
-## **Narrative Canvas: Infrastruktur Komunikasi Berbasis Kesadaran Diri**
+## ClimateSense: Platform Komunikasi Publik untuk Literasi Iklim
 
-![Innovation](../images/innovation.png)
+Perubahan iklim bukan hanya masalah teknologi dan kebijakan, tetapi juga masalah komunikasi. Banyak masyarakat tidak menolak solusi iklim karena tidak peduli, melainkan karena tidak memahami relevansinya terhadap kehidupan sehari-hari. Berdasarkan tantangan ini, saya mengusulkan sebuah inovasi layanan komunikasi publik bernama **ClimateSense**.
 
-Inovasi yang saya ajukan lahir dari satu kesenjangan utama dalam praktik komunikasi modern: banyak individu memiliki gagasan, tetapi tidak memiliki **wadah reflektif** untuk mengartikulasikannya secara bermakna.
+### Deskripsi Inovasi
 
-**Narrative Canvas** adalah sebuah platform konseptual yang dirancang sebagai ruang latihan komunikasi berbasis cerita hidup. Platform ini tidak mengajarkan “cara berbicara yang baik”, melainkan **cara memahami diri sebelum berbicara**.
+ClimateSense adalah platform digital berbasis web dan mobile yang berfungsi sebagai **penerjemah pengetahuan iklim** ke dalam bahasa publik yang sederhana, personal, dan kontekstual. Platform ini tidak berfokus pada data mentah, tetapi pada makna dan implikasi praktis dari data tersebut.
 
-Narrative Canvas dibangun di atas tiga pilar utama:
-1. **Refleksi Diri** – menggali pengalaman personal sebagai sumber makna,
-2. **Struktur Pesan** – mengubah pengalaman menjadi narasi komunikatif,
-3. **Empati Audiens** – menguji dampak pesan terhadap orang lain.
+### Fitur Utama
+1. **Personalized Climate Impact**
+   Pengguna dapat melihat dampak perubahan iklim berdasarkan lokasi tempat tinggal mereka (cuaca, kesehatan, pangan).
+2. **Narrative-Based Communication**
+   Informasi disampaikan dalam bentuk cerita, visual, dan simulasi sederhana, bukan laporan teknis.
+3. **Public Dialogue Space**
+   Ruang diskusi yang dimoderasi untuk membangun dialog, bukan debat polarisatif.
+4. **Action Tracker**
+   Rekomendasi tindakan kecil yang realistis dan dapat dilakukan pengguna.
 
-Melalui sistem *story prompt*, pengguna dipandu untuk mengurai pengalaman hidup menjadi nilai, konflik, dan pembelajaran. Pesan yang dihasilkan bukan sekadar informatif, tetapi autentik dan berakar pada identitas.
+### Nilai KIPP yang Dibangun
+- **Interpersonal**: Menghubungkan isu global dengan pengalaman personal.
+- **Publik**: Mendorong literasi dan partisipasi publik.
+- **Etika Komunikasi**: Transparan, inklusif, dan tidak menakut-nakuti.
 
-Dalam konteks KIPP, Narrative Canvas berfungsi sebagai **mesin pembangun kapasitas komunikasi**—menghubungkan kesadaran diri, empati, dan efektivitas pesan. Inovasi ini menempatkan komunikasi bukan sebagai output instan, tetapi sebagai proses pemaknaan berkelanjutan.
+### Dampak yang Diharapkan
 
-Narrative Canvas bukan sekadar produk, melainkan **infrastruktur kesadaran komunikasi**.
+ClimateSense bertujuan meningkatkan kapasitas masyarakat untuk memahami, mempercayai, dan bertindak terhadap isu perubahan iklim. Dengan komunikasi yang lebih manusiawi, inovasi ini diharapkan mampu menjembatani kesenjangan antara sains, kebijakan, dan kehidupan sehari-hari.

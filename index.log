@@ -1,9 +1,9 @@
-This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.10.1)  24 DEC 2025 12:49
+This is LuaHBTeX, Version 1.22.0 (TeX Live 2025)  (format=lualatex 2025.12.24)  24 DEC 2025 13:03
  restricted system commands enabled.
 **index.tex
 (./index.tex
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-09-02>
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-11-14>
 Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
 Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
 Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended collection.
@@ -35,17 +35,17 @@ Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
 Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
 Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
 Inserting `tracingstacklevels' in `input_level_string'. (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/koma-script/scrreprt.cls
-Document Class: scrreprt 2025/09/09 v3.48 KOMA-Script document class (report)
+Document Class: scrreprt 2025/12/01 v3.49 KOMA-Script document class (report)
 (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2025/09/09 v3.48 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
+Package: scrkbase 2025/12/01 v3.49 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
 (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2025/09/09 v3.48 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+Package: scrbase 2025/12/01 v3.49 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
 (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2025/09/09 v3.48 KOMA-Script package (file load hooks)
+Package: scrlfile 2025/12/01 v3.49 KOMA-Script package (file load hooks)
 (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
-Package: scrlfile-hook 2025/09/09 v3.48 KOMA-Script package (using LaTeX hooks)
+Package: scrlfile-hook 2025/12/01 v3.49 KOMA-Script package (using LaTeX hooks)
 (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/koma-script/scrlogo.sty
-Package: scrlogo 2025/09/09 v3.48 KOMA-Script package (logo)
+Package: scrlogo 2025/12/01 v3.49 KOMA-Script package (logo)
 ))) (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
@@ -53,7 +53,7 @@ Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
 Already applied: [0000/00/00] Usage of raw or classic option list on input line 370.
 )) (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/koma-script/tocbasic.sty
-Package: tocbasic 2025/09/09 v3.48 KOMA-Script package (handling toc-files)
+Package: tocbasic 2025/12/01 v3.49 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip49
 \scr@dte@tocline@numbox=\box53
 )
@@ -61,12 +61,11 @@ Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `toc' on input line 143.
 Class scrreprt Info: File `scrsize11pt.clo' used instead of
-(scrreprt)           file `scrsize11.clo' to setup font sizes on input line 2707.
+(scrreprt)           file `scrsize11.clo' to setup font sizes on input line 2708.
 (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
-File: scrsize11pt.clo 2025/09/09 v3.48 KOMA-Script font size class option (11pt)
-luaotfload | db : Font names database not found, generating new one.
-luaotfload | db : This can take several minutes; please be patient.) (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/koma-script/typearea.sty
-Package: typearea 2025/09/09 v3.48 KOMA-Script package (type area)
+File: scrsize11pt.clo 2025/12/01 v3.49 KOMA-Script font size class option (11pt)
+luaotfload | db : Font names database loaded from C:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz) (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2025/12/01 v3.49 KOMA-Script package (type area)
 \ta@bcor=\skip50
 \ta@div=\count273
 Package typearea Info: You've used standard option `letterpaper'.
@@ -95,7 +94,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 11.0pt
 (typearea)              \footskip       = 47.6pt
 (typearea)              \baselineskip   = 13.6pt
-(typearea)              on input line 1807.
+(typearea)              on input line 1808.
 )
 \c@part=\count274
 \c@chapter=\count275
@@ -106,49 +105,49 @@ Package typearea Info: These are the values describing the layout:
 \c@subparagraph=\count280
 \scr@dte@chapter@maxnumwidth=\skip55
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\chapter on input line 6080.
+(scrreprt)           for `\chapter on input line 5926.
 \scr@dte@section@maxnumwidth=\skip56
 Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\section on input line 6091.
+(scrreprt)           for `\section on input line 5937.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\section on input line 6091.
+(scrreprt)           for `\section on input line 5937.
 \scr@dte@part@maxnumwidth=\skip57
 Class scrreprt Info: using compatibility default `afterindent=true'
-(scrreprt)           for `\part on input line 6100.
+(scrreprt)           for `\part on input line 5946.
 \scr@dte@subsection@maxnumwidth=\skip58
 Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\subsection on input line 6110.
+(scrreprt)           for `\subsection on input line 5956.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\subsection on input line 6110.
+(scrreprt)           for `\subsection on input line 5956.
 \scr@dte@subsubsection@maxnumwidth=\skip59
 Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\subsubsection on input line 6120.
+(scrreprt)           for `\subsubsection on input line 5966.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\subsubsection on input line 6120.
+(scrreprt)           for `\subsubsection on input line 5966.
 \scr@dte@paragraph@maxnumwidth=\skip60
 Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\paragraph on input line 6131.
+(scrreprt)           for `\paragraph on input line 5977.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\paragraph on input line 6131.
+(scrreprt)           for `\paragraph on input line 5977.
 \scr@dte@subparagraph@maxnumwidth=\skip61
 Class scrreprt Info: using compatibility default `runin=bysign'
-(scrreprt)           for `\subparagraph on input line 6141.
+(scrreprt)           for `\subparagraph on input line 5987.
 Class scrreprt Info: using compatibility default `afterindent=bysign'
-(scrreprt)           for `\subparagraph on input line 6141.
+(scrreprt)           for `\subparagraph on input line 5987.
 \abovecaptionskip=\skip62
 \belowcaptionskip=\skip63
 \c@pti@nb@sid@b@x=\box54
 Package tocbasic Info: omitting babel extension for `lof'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lof' on input line 7348.
+(tocbasic)             for `lof' on input line 7217.
 \scr@dte@figure@maxnumwidth=\skip64
 \c@figure=\count281
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lot' on input line 7361.
+(tocbasic)             for `lot' on input line 7230.
 \scr@dte@table@maxnumwidth=\skip65
 \c@table=\count282
-Class scrreprt Info: Redefining `\numberline' on input line 7532.
+Class scrreprt Info: Redefining `\numberline' on input line 7401.
 \bibindent=\dimen147
 ) (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
@@ -175,7 +174,7 @@ File: svgnam.def 2024/09/29 v3.02 Predefined colors according to SVG 1.1 (UK)
 ) (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/xcolor/x11nam.def
 File: x11nam.def 2024/09/29 v3.02 Predefined colors according to Unix/X11 (UK)
 ) (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2025/06/16 v2.17y AMS math features
+Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip66
 For additional information on amsmath, use the `?' option.
 (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -235,8 +234,8 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \multlinegap=\skip67
 \multlinetaggap=\skip68
 \mathdisplay@stack=\toks22
-LaTeX Info: Redefining \[ on input line 2949.
-LaTeX Info: Redefining \] on input line 2950.
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
 ) (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/amsfonts/amsfonts.sty
@@ -249,18 +248,18 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 )) (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ) (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math.sty (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2025-09-02 L3 programming layer (loader) 
+Package: expl3 2025-11-14 L3 programming layer (loader) 
 (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
-File: l3backend-luatex.def 2025-06-09 L3 backend support: PDF output (LuaTeX)
+File: l3backend-luatex.def 2025-10-09 L3 backend support: PDF output (LuaTeX)
 \l__color_backend_stack_int=\count295
 Inserting `l3color' in `luaotfload.parse_color'.))
 Package: unicode-math 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
 (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/unicode-math/unicode-math-luatex.sty
 Package: unicode-math-luatex 2023/08/13 v0.8r Unicode maths in XeLaTeX and LuaLaTeX
 (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2024-08-16 L3 Experimental document command parser
+Package: xparse 2025-10-09 L3 Experimental document command parser
 ) (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
 ) (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.sty
 Package: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX
 Lua module: fontspec 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTeX (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
@@ -280,7 +279,7 @@ Package: fontspec-luatex 2025/09/29 v2.9g Font selection for XeLaTeX and LuaLaTe
 \l__fontspec_tmpb_dim=\dimen158
 \l__fontspec_tmpc_dim=\dimen159
 (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 ) (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fix-cm.sty
 Package: fix-cm 2020/11/24 v1.1t fixes to LaTeX
 (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ts1enc.def
@@ -416,7 +415,7 @@ LaTeX Encoding Info:    Redeclaring text symbol \textdiv (encoding TS1) on input
 )) (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/lualatex/lualatex-math/lualatex-math.sty
 Package: lualatex-math 2022/01/01 v1.12 Patches for mathematics typesetting with LuaLaTeX
 (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count307
 )
 Lua module: lualatex-math 2013/08/03 v1.3 Patches for mathematics typesetting with LuaLaTeX)
@@ -490,7 +489,7 @@ File: microtype.cfg 2025/07/09 v3.2b microtype main configuration file (RS)
 )
 LaTeX Info: Redefining \microtypesetup on input line 3065.
 ) (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty
-Package: longtable 2024-12-18 v4.23 Multi-page Table package (DPC)
+Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
 \LTleft=\skip70
 \LTright=\skip71
 \LTpre=\skip72
@@ -529,7 +528,7 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \@lastruleclass=\count321
 \@thisrulewidth=\dimen174
 ) (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/array.sty
-Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \col@sep=\dimen175
 \ar@mcellbox=\box63
 \extrarowheight=\dimen176
@@ -668,6 +667,10 @@ File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 \BKM@id=\count336
 )) (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+Package tocbasic Info: Loading of class-dependent code for package caption3
+(tocbasic)             prevented on line 50.
+
 (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen186
@@ -678,15 +681,7 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@indent=\dimen191
 \caption@parindent=\dimen192
 \caption@hangindent=\dimen193
-Package caption Info: Unknown document class (or package),
-(caption)             standard defaults will be used.
-Package caption Info: \@makecaption = \long macro:#1#2->\@abovecaptionbreak \vskip \abovecaptionskip \@abovecaptionbreak \@@makecaption \@firstofone {#1}{#2}\@belowcaptionbreak \vskip \belowcaptionskip \@belowcaptionbreak  on input line 1175.
 )
-
-Package caption Warning: Unknown document class (or package),
-(caption)                standard defaults will be used.
-See the caption package documentation for explanation.
-
 \c@caption@flags=\count337
 \c@continuedfloat=\count338
 Package caption Info: hyperref package is loaded.
@@ -999,9 +994,7 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 ) (c:/Users/Naufalziyadh/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-
-[1
+) [1
 
 
 
@@ -1011,8 +1004,6 @@ No file index.toc.
 \tf@toc=\write3
 
 \openout3 = index.toc
-
-
 [2
 
 ]
@@ -1022,41 +1013,25 @@ Overfull \hbox (13.5105pt too wide) in paragraph at lines 199--201
 []\TU/lmr/m/n/10.95 Mari ter-hubung dan berdiskusi! Anda bisa men-e-mukan saya di In-sta-gram: (\TU/lmr/bx/n/10.95 naufalziyadh.abs?\TU/lmr/m/n/10.95 ). 
  []
 
-
-
 [3
 
 ]
 chapter 2.
-
-
 [4
 
 ]
 chapter 3.
-
-
 [5
 
 ]
 chapter 4.
-
-
 [6
 
-]
-
-[7]
-
-[8]
+] [7] [8]
 chapter 5.
-
-
 [9
 
-]
-
-[10]
+] [10]
 chapter 6.
 Missing character: There is no ● (U+25CF) in font [lmroman10-regular]:+tlig;!
 Missing character: There is no ● (U+25CF) in font [lmroman10-regular]:+tlig;!
@@ -1075,38 +1050,34 @@ Missing character: There is no ● (U+25CF) in font [lmroman10-regular]:+tlig;!
 Missing character: There is no ● (U+25CF) in font [lmroman10-regular]:+tlig;!
 Missing character: There is no ● (U+25CF) in font [lmroman10-regular]:+tlig;!
 Missing character: There is no ● (U+25CF) in font [lmroman10-regular]:+tlig;!
-
-
 [11
 
 Missing character: There is no ● (U+25CF) in font [lmroman10-regular]:+tlig;!
 Missing character: There is no ● (U+25CF) in font [lmroman10-regular]:+tlig;!
 Missing character: There is no ● (U+25CF) in font [lmroman10-regular]:+tlig;!
 Missing character: There is no ● (U+25CF) in font [lmroman10-regular]:+tlig;!
-]
-
-[12]
+] [12]
 chapter 7.
 
-LaTeX Warning: File `My_Concepts/../images/identity.png' not found on input line 563.
+LaTeX Warning: File `My_Concepts/../images/climate.jpg' not found on input line 562.
 
 
-! Package luatex.def Error: File `My_Concepts/../images/identity.png' not found: using draft setting.
+! Package luatex.def Error: File `My_Concepts/../images/climate.jpg' not found: using draft setting.
 
 See the luatex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.563 ...ratio]{My_Concepts/../images/identity.png}}
+l.562 ...tratio]{My_Concepts/../images/climate.jpg}}
                                                   
 
 Here is how much of LuaTeX's memory you used:
- 24365 strings out of 476291
+ 24388 strings out of 476081
  100000,1373583 words of node,token memory allocated
- 1999 words of node memory still in use:
-   12 hlist, 5 vlist, 5 rule, 8 disc, 2 local_par, 4 dir, 37 glue, 9 kern, 17 penalty, 83 glyph, 44 attribute, 81 glue_spec, 44 attribute_list, 3 temp, 7 if_stack, 7 write, 3 pdf_dest, 1 pdf_action, 6 pdf_colorstack nodes
-   avail lists: 2:52,3:121,4:72,5:725,6:23,7:11583,8:135,9:154,10:21,11:605,12:1
- 46217 multiletter control sequences out of 65536+600000
- 61 fonts using 18917075 bytes
- 108i,7n,114p,11226b,410s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 2064 words of node memory still in use:
+   12 hlist, 5 vlist, 5 rule, 12 disc, 2 local_par, 4 dir, 37 glue, 7 kern, 17 penalty, 88 glyph, 43 attribute, 81 glue_spec, 43 attribute_list, 3 temp, 7 if_stack, 7 write, 3 pdf_dest, 1 pdf_action, 6 pdf_colorstack nodes
+   avail lists: 2:54,3:121,4:73,5:726,6:23,7:11578,8:135,9:154,10:21,11:601,12:1
+ 46450 multiletter control sequences out of 65536+600000
+ 61 fonts using 18916999 bytes
+ 108i,7n,114p,11226b,418s stack positions out of 10000i,1000n,20000p,200000b,200000s
 !  ==> Fatal error occurred, no output PDF file produced!

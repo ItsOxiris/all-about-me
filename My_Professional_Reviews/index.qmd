@@ -1,89 +1,38 @@
----
-title: "UAS-5 My Professional Reviews"
-author: "Naufalziyadh Alif Bintang Shaeky"
-format:
-  html:
-    theme: cosmo
-    toc: false
----
+# UAS-5 My Professional Reviews
 
-## **My Professional Reviews**
+## Profesionalisme dalam Menilai Pesan Publik di Era Krisis Iklim
 
-![Review](../images/review.png)
+Profesionalisme mencakup kemampuan untuk memberikan kritik yang konstruktif, objektif, dan bertanggung jawab. Pada bagian ini, saya mendokumentasikan proses penilaian profesional terhadap pesan publik dan karya rekan mahasiswa menggunakan rubrik yang telah ditetapkan.
 
-Profesionalisme dalam bidang komunikasi dan teknologi tidak hanya diukur dari kemampuan mencipta, tetapi juga dari kemampuan **memberikan kritik yang konstruktif dan menerima evaluasi secara terbuka**. Bagian ini mendokumentasikan praktik penilaian profesional saya terhadap pesan dan solusi yang dikembangkan dalam konteks era AI.
+## 1. Professional Self-Assessment (Menggunakan AI)
 
-UAS-5 dirancang sebagai latihan reflektif untuk membangun objektivitas, etika akademik, dan tanggung jawab profesional dalam menilai karya publik.
+Saya melakukan self-assessment terhadap karya inovasi dan konsep perubahan iklim yang saya kembangkan. Penilaian difokuskan pada:
+- Kejelasan pesan publik
+- Konsistensi logika sistem
+- Etika komunikasi
+- Potensi dampak sosial
 
----
+Hasil self-assessment menunjukkan bahwa kekuatan utama karya saya terletak pada integrasi perspektif komunikasi dan keberlanjutan, sementara aspek yang perlu ditingkatkan adalah penyederhanaan bahasa bagi audiens non-akademik.
 
-## **1. Professional Self-Reflection (Self Assessment – Menggunakan AI)**
+## 2. Professional Peer Assessment (Tanpa AI)
 
-Sebagai bagian dari refleksi profesional, saya melakukan **self-assessment** terhadap pesan publik dan inovasi yang saya kembangkan dengan menggunakan bantuan AI, berdasarkan rubrik resmi UAS.
+Saya melakukan penilaian terhadap karya rekan mahasiswa dengan memperhatikan:
+- **Originalitas ide**
+- **Koherensi argumen**
+- **Kualitas komunikasi publik**
+- **Relevansi terhadap masalah global**
 
-Penilaian ini mencakup aspek:
-- kelayakan konseptual dan teknis,
-- konsistensi nilai dan etika AI,
-- kejelasan komunikasi publik,
-- serta potensi dampak sosial dari solusi yang diajukan.
+Penilaian dilakukan secara manual dan objektif, sesuai dengan standar profesional dalam lingkungan akademik.
 
-AI digunakan sebagai **alat bantu refleksi objektif**, bukan sebagai pengganti tanggung jawab akademik. Hasil self-assessment ini membantu saya memastikan bahwa karya yang saya hasilkan bukan sekadar ide, melainkan solusi yang **terukur, dapat dipertanggungjawabkan, dan komunikatif secara profesional**.
+## 3. Tautan Lembar Skor Penilaian
 
----
+Hasil lengkap Self-Assessment dan Peer Assessment dicatat dalam file Excel sesuai ketentuan dan dapat diakses melalui tautan berikut:
 
-## **2. Professional Peer Review (Tanpa AI)**
+👉 **[Download Lembar Skor UAS](LINK-EXCEL-DI-SINI)**
 
-Saya juga melakukan **peer assessment secara manual tanpa bantuan AI**, sesuai ketentuan UAS, terhadap karya (Masterpiece) rekan mahasiswa lain yang URL-nya tercantum dalam daftar resmi (sama dengan saat UTS).
+File ini disimpan di folder `UAS-5` pada repositori GitHub saya dan telah ditautkan ke portal utama.
 
-Dalam proses ini, saya berperan sebagai **reviewer profesional** yang menilai karya rekan berdasarkan kriteria berikut:
+### Penutup
 
-- **Originalitas**  
-  Sejauh mana inovasi yang dikembangkan menghadirkan kebaruan dan tidak sekadar mengulang solusi yang sudah ada.
-
-- **Logika Sistem dan Konsep**  
-  Apakah arsitektur solusi yang dirancang mampu menjawab permasalahan secara rasional dan terstruktur.
-
-- **Kualitas Komunikasi Publik**  
-  Sejauh mana ide profesional tersebut disampaikan secara jelas, koheren, dan dapat dipahami oleh audiens non-spesialis.
-
-Penilaian dilakukan dengan pendekatan etis, objektif, dan berbasis rubrik, sehingga masukan yang diberikan bersifat membangun dan relevan bagi pengembangan karya.
-
----
-
-## **3. Lembar Skor Penilaian Akhir (Excel)**
-
-Seluruh hasil **Self-Assessment** dan **Peer Assessment** dicatat dalam **satu file Excel Lembar Skor**, dengan ketentuan:
-
-- Satu baris untuk setiap asesmen  
-- Urutan baris:
-  1. Self Assessment (menggunakan AI)
-  2. Peer Assessment 1 (tanpa AI)
-  3. Peer Assessment 2 (tanpa AI)
-  4. Peer Assessment 3 (tanpa AI – bonus)
-- File disimpan di repositori pribadi pada folder `UAS-5`
-- File di-*link* ke portal UAS dan dilaporkan melalui MS Form UAS-1 (TBD)
-
-### 🔗 Tautan Lembar Skor UAS
-
-> **Important**  
-> 📥 **[Download Lembar Skor UAS (Excel)](LINK-EXCEL-ANDA-DI-SINI)**
-
-*(Tautan akan diperbarui dengan file resmi saat UAS berlangsung)*
-
----
-
-## **4. Status dan Validitas Data**
-
-> ⚠️ **Catatan Penting**  
-> Bahan Peer Assessment yang valid **baru tersedia saat UAS**.  
-> Oleh karena itu, pengisian skor dan tautan akhir akan disesuaikan dengan materi resmi yang tersedia pada waktu UAS.
-
----
-
-## **Refleksi Profesional**
-
-Penilaian ini merepresentasikan upaya saya untuk bersikap objektif, etis, dan reflektif dalam menilai kualitas pekerjaan—baik karya sendiri maupun karya orang lain—di lingkungan profesional Sistem dan Teknologi Informasi.
-
-Kemampuan melakukan evaluasi yang adil dan komunikatif merupakan bagian penting dari **kompetensi profesional di era AI**.
-
----
+Proses penilaian profesional ini melatih saya untuk tidak hanya menjadi pencipta gagasan, tetapi juga penilai yang adil, reflektif, dan bertanggung jawab dalam ekosistem komunikasi publik.
+s
